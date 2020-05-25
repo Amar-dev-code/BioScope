@@ -67,7 +67,7 @@ function Movie(props) {
             >
               View on IMDB
             </a>
-            <Link to="/" className="btn btn-default text-light">
+            <Link to="/BioScope" className="btn btn-default text-light">
               Go Back To Search
             </Link>
           </div>

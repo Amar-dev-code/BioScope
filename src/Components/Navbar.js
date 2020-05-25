@@ -8,7 +8,10 @@ export function Navbar() {
       <nav className="navbar navbar-light bg-dark mb-5">
         <div className="container">
           <div className="navbar-header">
-            <Link className="navbar-brand text-white text-lg brand-text" to="/">
+            <Link
+              className="navbar-brand text-white text-lg brand-text"
+              to="/BioScope"
+            >
               BioScope
             </Link>
           </div>
