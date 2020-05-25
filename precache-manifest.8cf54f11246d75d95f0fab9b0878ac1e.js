@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bdc92749235b9a27b7ac12cbea69b61b",
+    "revision": "68046f110796c5c8e35038a0c5833977",
     "url": "/BioScope/index.html"
   },
   {
