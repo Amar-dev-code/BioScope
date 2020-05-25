@@ -13,7 +13,7 @@ export function App() {
       <Router>
         <div>
           <Navbar />
-          <Route exact path="/" component={Landing} />
+          <Route path="/" component={Landing} />
           <Route exact path="/Test/:id" component={Test} />
           <Footer />
         </div>
