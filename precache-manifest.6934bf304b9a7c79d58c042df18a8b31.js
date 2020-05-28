@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "484d7272931ab6bc660f8ac1ee8075f7",
+    "revision": "d5c158c04a1a23f2123285c0c4665ecc",
     "url": "/BioScope/index.html"
   },
   {
-    "revision": "3d15c705910c760d4a28",
+    "revision": "31eceabdd4482ae12a09",
     "url": "/BioScope/static/css/main.2f0f4404.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BioScope/static/js/2.e1b42f82.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d15c705910c760d4a28",
-    "url": "/BioScope/static/js/main.4eaee3d4.chunk.js"
+    "revision": "31eceabdd4482ae12a09",
+    "url": "/BioScope/static/js/main.09e7fff5.chunk.js"
   },
   {
     "revision": "4b5951d7fd528af8a8bc",
