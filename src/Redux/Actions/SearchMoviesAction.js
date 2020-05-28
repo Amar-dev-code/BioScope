@@ -17,7 +17,7 @@ export function searchMovies(text) {
 export function fetchMovieList(text) {
   return function (dispatch) {
     axios
-      .get(`http://www.omdbapi.com/?apikey=${CONSTANTS.API_KEY}&s=${text}`)
+      .get(`https://www.omdbapi.com/?apikey=${CONSTANTS.API_KEY}&s=${text}`)
       .then((response) => {
         dispatch({
           type: FETCH_MOVIE_LIST,
@@ -30,7 +30,7 @@ export function fetchMovieList(text) {
 export function exactItem(id) {
   return function (dispatch) {
     axios
-      .get(`http://www.omdbapi.com/?apikey=${CONSTANTS.API_KEY}&i=${id}`)
+      .get(`https://www.omdbapi.com/?apikey=${CONSTANTS.API_KEY}&i=${id}`)
       .then((response) => {
         dispatch({
           type: FETCH_EXACT_ITEM,
