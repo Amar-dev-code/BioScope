@@ -1,0 +1,70 @@
+:root {
+  --primary: #4628ff;
+  --warning: #ffd028;
+  --danger: #ff2828;
+  --success: #2fff28;
+  --white: #f2f8f8;
+  --dark: #181706;
+  --grey: #808380;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-0.3px);
+}
+
+.btn--primary--solid {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  margin-top: 15px;
+}
+.btn--warning--solid {
+  background-color: var(--warning);
+  color: var(--white);
+  border: none;
+}
+.btn--danger--solid {
+  background-color: var(--danger);
+  color: var(--white);
+  border: none;
+}
+.btn--success--solid {
+  background-color: var(--success);
+  color: var(--black);
+  border: none;
+}
+.btn--primary--outline {
+  background-color: var(--primary);
+  color: var(--white);
+  border: 2px;
+}
+.btn--warning--outline {
+  background-color: var(--warning);
+  color: var(--white);
+  border: 2px;
+}
+.btn--danger--outline {
+  background-color: var(--danger);
+  color: var(--white);
+  border: 2px;
+}
+.btn--warning--outline {
+  background-color: var(--white);
+  color: var(--white);
+  border: 2px;
+}
+
+.btn--primary--disabled {
+  background-color: var(--grey);
+  color: var(--white);
+  border: none;
+  pointer-events: none;
+}

@@ -5,7 +5,7 @@ import {
 } from "../Redux/Actions/SearchMoviesAction";
 import { connect } from "react-redux";
 import { useDispatch } from "react-redux";
-
+import { Button } from "../Assets/Atoms/components/button";
 const mapStateToProps = (state) => {
   return { itemToSearchFor: state.movies.text, loading: state.movies.loading };
 };
@@ -36,13 +36,11 @@ function SearchForm(props = { mapStateToProps }) {
             name="searchMovies"
             onChange={onChange}
           ></input>
-          <button
+          <Button
+            buttonLabel="Search"
             type="button"
-            className="btn btn-primary btn-bg mt-3"
             onClick={onSubmit}
-          >
-            Search
-          </button>
+          ></Button>
         </form>
       </div>
     </div>
