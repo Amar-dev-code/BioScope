@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
-import { connect } from "react-redux";
-import { Link, withRouter } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { exactItem, setLoading } from "../Redux/Actions/SearchMoviesAction";
 
 import { Spinner } from "../Components/Spinner";
+
+import { Button } from "../Assets/Atoms/components/button";
 
 function Movie(props) {
   debugger;
@@ -59,14 +59,20 @@ function Movie(props) {
             <h3>About </h3>
             {movie.Plot}
             <hr />
-            <a
+            <Button
+              buttonLabel="View on IMDB"
+              onClick={
+                (window.location.href = `https://www.imdb.com/title/${movie.imdbID}`)
+              }
+            ></Button>
+            {/* <a
               href={"https://www.imdb.com/title/" + movie.imdbID}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
             >
               View on IMDB
-            </a>
+            </a> */}
             <Link to="/BioScope" className="btn btn-default text-light">
               Go Back To Search
             </Link>
