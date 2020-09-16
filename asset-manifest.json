@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/BioScope/static/css/main.87ea917c.chunk.css",
-    "main.js": "/BioScope/static/js/main.09e7fff5.chunk.js",
+    "main.css": "/BioScope/static/css/main.3b05fc48.chunk.css",
+    "main.js": "/BioScope/static/js/main.6ef3d030.chunk.js",
     "runtime-main.js": "/BioScope/static/js/runtime-main.3629a954.js",
-    "static/js/2.e1b42f82.chunk.js": "/BioScope/static/js/2.e1b42f82.chunk.js",
+    "static/js/2.54e349b8.chunk.js": "/BioScope/static/js/2.54e349b8.chunk.js",
     "index.html": "/BioScope/index.html",
-    "precache-manifest.368bcf1d2df950a8ae136d46e5001255.js": "/BioScope/precache-manifest.368bcf1d2df950a8ae136d46e5001255.js",
+    "precache-manifest.62ada91fe9e9129667f0f7c0384c5629.js": "/BioScope/precache-manifest.62ada91fe9e9129667f0f7c0384c5629.js",
     "service-worker.js": "/BioScope/service-worker.js",
-    "static/js/2.e1b42f82.chunk.js.LICENSE.txt": "/BioScope/static/js/2.e1b42f82.chunk.js.LICENSE.txt"
+    "static/js/2.54e349b8.chunk.js.LICENSE.txt": "/BioScope/static/js/2.54e349b8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3629a954.js",
-    "static/js/2.e1b42f82.chunk.js",
-    "static/css/main.87ea917c.chunk.css",
-    "static/js/main.09e7fff5.chunk.js"
+    "static/js/2.54e349b8.chunk.js",
+    "static/css/main.3b05fc48.chunk.css",
+    "static/js/main.6ef3d030.chunk.js"
   ]
 }
