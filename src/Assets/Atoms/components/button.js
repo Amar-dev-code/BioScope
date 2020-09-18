@@ -43,13 +43,13 @@ export const Button = (props) => {
     : (checkButtonStyle = styles[0]);
 
   return (
-    <button
+    <a
       onClick={props.onClick}
       type={props.type}
       className={`btn ${buttonSize} ${checkButtonStyle}`}
-      disabled={props.disabled}
+      href={props.href}
     >
       {checkButtonLabel}
-    </button>
+    </a>
   );
 };

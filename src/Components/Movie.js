@@ -61,18 +61,8 @@ function Movie(props) {
             <hr />
             <Button
               buttonLabel="View on IMDB"
-              onClick={
-                (window.location.href = `https://www.imdb.com/title/${movie.imdbID}`)
-              }
+              href={`https://www.imdb.com/title/${movie.imdbID}`}
             ></Button>
-            {/* <a
-              href={"https://www.imdb.com/title/" + movie.imdbID}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary"
-            >
-              View on IMDB
-            </a> */}
             <Link to="/BioScope" className="btn btn-default text-light">
               Go Back To Search
             </Link>
