@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/BioScope/static/css/main.3b05fc48.chunk.css",
-    "main.js": "/BioScope/static/js/main.614a828d.chunk.js",
+    "main.js": "/BioScope/static/js/main.da6e340b.chunk.js",
     "runtime-main.js": "/BioScope/static/js/runtime-main.3629a954.js",
     "static/js/2.54e349b8.chunk.js": "/BioScope/static/js/2.54e349b8.chunk.js",
     "index.html": "/BioScope/index.html",
-    "precache-manifest.a535aba689594479049cb28b88242504.js": "/BioScope/precache-manifest.a535aba689594479049cb28b88242504.js",
+    "precache-manifest.e0a6b74aed32f25fe92465a156f9080d.js": "/BioScope/precache-manifest.e0a6b74aed32f25fe92465a156f9080d.js",
     "service-worker.js": "/BioScope/service-worker.js",
     "static/js/2.54e349b8.chunk.js.LICENSE.txt": "/BioScope/static/js/2.54e349b8.chunk.js.LICENSE.txt"
   },
@@ -13,6 +13,6 @@
     "static/js/runtime-main.3629a954.js",
     "static/js/2.54e349b8.chunk.js",
     "static/css/main.3b05fc48.chunk.css",
-    "static/js/main.614a828d.chunk.js"
+    "static/js/main.da6e340b.chunk.js"
   ]
 }
