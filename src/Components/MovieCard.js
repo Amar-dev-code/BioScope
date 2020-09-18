@@ -13,14 +13,14 @@ export function MovieCard(props) {
         <h5 className="text-light card-title">
           {movie.Title} - {movie.Year}
         </h5>
-        <Link className="btn btn-primary" to={"/Test/" + movie.imdbID}>
+        {/* <Link className="btn btn-primary" to={"/Test/" + movie.imdbID}>
           Movie Details
           <i className="fa fa-chevron-right" />
-        </Link>{" "}
-        {/* <Button
-          href={`http://localhost:3000/Test/${movie.imdbID}`}
+        </Link>{" "} */}
+        <Button
+          href={`/Test/${movie.imdbID}`}
           buttonLabel="Movie Details >"
-        ></Button> */}
+        ></Button>
       </div>
     </div>
   );
