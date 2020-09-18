@@ -14,7 +14,7 @@ export function MovieCard(props) {
           {movie.Title} - {movie.Year}
         </h5>
         <Button
-          href={`http://localhost:3000/Test/${movie.imdbID}`}
+          href={`https://amar-dev-code.github.io/Test/${movie.imdbID}`}
           buttonLabel="Movie Details >"
         ></Button>
       </div>
