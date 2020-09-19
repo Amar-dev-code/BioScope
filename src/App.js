@@ -14,7 +14,7 @@ export function App() {
         <div>
           <Navbar />
           <Route exact path="/BioScope" component={Landing} />
-          <Route exact path="/Test/id" component={Test} />
+          <Route exact path="/Test/:id" component={Test} />
           <Footer />
         </div>
       </Router>

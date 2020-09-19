@@ -20,6 +20,7 @@ export function MovieCard(props) {
         <Button
           href={`/Test/${movie.imdbID}`}
           buttonLabel="Movie Details >"
+          onClick="return false"
         ></Button>
       </div>
     </div>
