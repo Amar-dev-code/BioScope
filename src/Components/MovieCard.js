@@ -1,8 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Link, withRouter } from "react-router-dom";
+
 import "../App.css";
-import { Button } from "../Assets/Atoms/components/button";
 
 export function MovieCard(props) {
   const movie = props.movies;
@@ -13,15 +13,10 @@ export function MovieCard(props) {
         <h5 className="text-light card-title">
           {movie.Title} - {movie.Year}
         </h5>
-        {/* <Link className="btn btn-primary" to={"/Test/" + movie.imdbID}>
+        <Link className="btn btn-primary" to={"/Test/" + movie.imdbID}>
           Movie Details
           <i className="fa fa-chevron-right" />
-        </Link>{" "} */}
-        <Button
-          href={`/Test/${movie.imdbID}`}
-          buttonLabel="Movie Details >"
-          onClick="return false"
-        ></Button>
+        </Link>
       </div>
     </div>
   );
